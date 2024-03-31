@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centennial College Course/Instructor Evaluation</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Name: Awash Adhikari, Student Number: 301424394 -->
+    <header><a href="https://www.centennialcollege.ca/" target="_blank"><img src="./centennialcollege_logo_horizontal_rgb.jpg"></a></header>
+    <form action="/submit_evaluation" method="post">
+        
+        <h1>Continuing Education Course/Instructor Evaluation</h1>
+        
+        <p>
+            Please read each statement carefully and consider each one individually.Use the
+            computer card to make your choice (use a pencil to fill in the space).
+            Give only one answer for each question.
+        </p>
+        <div class="Field"></div>
+        <fieldset>
+            <div class="Topics"></div>
+            <legend>Course Information</legend>
+            <label for="course_name">Course Name/Code:</label><br>
+            <input type="text" id="course_name" name="course_name"><br>
+            <label for="semester">Semester:</label><br>
+            <select id="semester" name="semester">
+                <option value="fall">Fall</option>
+                <option value="winter">Winter</option>
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+            </select><br>
+            <label for="year">Year:</label><br>
+            <input type="text" id="year" name="year"><br>
+            <label for="instructor">Instructor:</label><br>
+            <input type="text" id="instructor" name="instructor"><br>
+        </fieldset>
+        <fieldset>
+            <legend>INSTRUCTOR</legend>
+            <label for="knowledge">1. Knowledge of subject:</label><br>
+            <select id="knowledge" name="knowledge">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="helpfulness">2. Helpfulness:</label><br>
+            <select id="helpfulness" name="helpfulness">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="courtesy">3. Courtesy and respect for all students:</label><br>
+            <select id="courtesy" name="courtesy">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="communication">4. Communication skills:</label><br>
+            <select id="communication" name="communication">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="performance">5. Overall performance:</label><br>
+            <select id="performance" name="performance">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend>COURSE</legend>
+            <label for="materials">6. How would you rate the course materials?</label><br>
+            <select id="materials" name="materials">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="expectations">7. How much did this course meet your expectations?</label><br>
+            <select id="expectations" name="expectations">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+            <label for="overall">8. How would you rate this course (overall) ?</label><br>
+            <select id="overall" name="overall">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="not_satisfactory">Not Satisfactory</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend>GENERAL INFORMATION</legend>
+            <label for="outline">9. Was the course outline reviewed/explained at the beginning of your course?</label><br>
+            <select id="outline" name="outline">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="not sure">Not sure</option>
+            </select><br>
+            <label for="recommend">10. Would you recommend this course to a friend with the same interests?</label><br>
+            <select id="recommend" name="recommend">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="not sure">Not sure</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend>Any Other Comments(please use the back of the computer card or this paper if necessary)</legend>
+            <label for="best">11. What is the best thing about this course?</label><br>
+            <textarea name="paragraph_text" cols="50" rows="2"></textarea><br>
+            <label for="improve">12. How could we improve this course ?</label><br>
+            <textarea name="paragraph_text" cols="50" rows="2"></textarea><br>
+            <label for="other">12. Other..</label><br>
+            <textarea name="paragraph_text" cols="50" rows="5"></textarea><br>
+        </fieldset>
+        <p>Thank You ! We pay attention to your feedback !</p>
+        <p>Web: <a href="https://www.centennialcollege.ca/" target="_blank">Centennial College</href></a></p>
+        <p>Email: <a href="mailto:continuingeducation@centennialcollege.ca" >Mail</a></href></p>
+    </form>
+    <footer>Name: Awash Adhikari_Student ID: 301424394</footer>
+</body>
+
+            
